@@ -1,3 +1,7 @@
+/**
+ * StyleSwitcher: A JavaScript library for creating alternate stylesheets 
+ * dynamically, and switching between them and their originals.
+ */
 
 var styleSwitcher = styleSwitcher || {
   // The styles that are available for switching.
