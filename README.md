@@ -14,9 +14,9 @@ to be served by a web server.
 
 ## Usage
 
-  styleSwitcher.processStyleSheets({
-    "http://www.example.com/css/": "http://localhost/example.com/css/"
-  });
-  myLink.onClick = function() {
-  	styleSwitcher.switchStyle();
-  };
+    styleSwitcher.processStyleSheets({
+      "http://www.example.com/css/": "http://localhost/example.com/css/"
+    });
+    myLink.onClick = function() {
+      styleSwitcher.switchStyle();
+    };
