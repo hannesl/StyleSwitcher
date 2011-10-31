@@ -14,6 +14,12 @@ to be served by a web server.
 
 ## Usage
 
+There are trhree bookmarklets available in bookmarklets.html that load, setup 
+and trigger StyleSwitcher. (Unfortunately, GitHub doesn't let me include them 
+in this README.) 
+
+The basic API for using this library programmatically looks like this:
+
     styleSwitcher.processStyleSheets({
       "http://www.example.com/css/": "http://localhost/example.com/css/"
     });

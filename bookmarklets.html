@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StyleSwitcher Bookmarklets</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+
+    <p>You can use the following bookmarklets to load, setup and trigger 
+      <a href="https://github.com/hannesl/StyleSwitcher">StyleSwitcher</a>. The 
+      second bookmarklet needs to be customized with your project specific URLs.
+      This process will be simplified in an upcoming version.</p>
+
+    <a href="javascript:(function(){_sss=document.createElement('script');_sss.type='text/javascript';_sss.src='https://raw.github.com/hannesl/StyleSwitcher/master/styleSwitcher.js';document.getElementsByTagName('head')[0].appendChild(_sss);})();" title="Click here to enable StyleSwitcher.">Enable StyleSwitcher</a>
+
+    <a href="javascript:styleSwitcher.processStyleSheets({'http://www.example.com/css/':'http://localhost/example.com/css/'});" title="Click here to setup the style replacements.">Setup Style Replacements</a>
+
+    <a href="javascript:styleSwitcher.switchStyle();" title="Click here to toggle between original and alternate styles.">Toggle Styles</a>
+
+  </body>
+</html>
